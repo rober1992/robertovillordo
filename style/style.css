@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+* {
+  margin: 0;
+  font-family: "Titan One", cursive;
+}
+
+body {
+  background-color: crimson;
+}
+
+.divPrincipal {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+.divPrincipal .divPrincipal_cubo1 {
+  display: flex;
+  width: 50%;
+  background-image: url(../img/codigo.jpg);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.divPrincipal .divPrincipal_cubo2 {
+  display: flex;
+  width: 50%;
+  background-image: url(../img/contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.divPrincipal2 {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+.divPrincipal2 .divPrincipal2_cubo3 {
+  display: flex;
+  width: 50%;
+  background-image: url(../img/sobre-mi.jpg);
+  background-position: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.divPrincipal2 .divPrincipal2_cubo4 {
+  display: flex;
+  width: 50%;
+  background-image: url(../img/skills.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.h1Cubo {
+  width: 100%;
+  display: flex;
+  color: yellow;
+  align-items: center;
+  justify-content: center;
+  transition: font-size 1s;
+  text-decoration: none;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
+}
+
+.h1Cubo:hover {
+  font-size: 3.5em;
+}
+
+.animate__animated.animate__backInDown {
+  --animate-duration: 0.5s;
+}
+
+.animate__animated.animate__backInUp {
+  --animate-duration: 0.5s;
+}
+
+@media (max-width: 576px) {
+  .h1Cubo {
+    font-size: 1.5em;
+  }
+
+  .h1Cubo:hover {
+    font-size: 1.6em;
+  }
+
+  .divPrincipal_cubo1 {
+    background-size: cover;
+    background-position: top;
+  }
+
+  .divPrincipal_cubo2 {
+    background-image: url(../img/contacto-movil.jpg) !important;
+  }
+}
+@media (orientation: landscape) {
+  .h1Cubo {
+    font-size: 1.5em;
+  }
+
+  .h1Cubo:hover {
+    font-size: 2em;
+  }
+}/*# sourceMappingURL=style.css.map */
