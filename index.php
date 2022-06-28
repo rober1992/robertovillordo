@@ -15,7 +15,7 @@
                     <a href="./pages/mis-trabajos.php" class="h1Cubo">Mis trabajos</a>
                 </div>
                 <div class="divPrincipal_cubo2">
-                    <a href="#" class="h1Cubo">Contactame</a>
+                    <a href="./pages/contactame.php" class="h1Cubo">Contactame</a>
                 </div>
         </div>
         <div class="divPrincipal2  animate__animated animate__backInUp">
