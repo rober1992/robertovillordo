@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Roberto Villordo</title>
 </head>
-<body>
+<body id="bodyIndex">
 
         <div class="divPrincipal animate__animated animate__backInDown">
                 <div class="divPrincipal_cubo1">

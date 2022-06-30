@@ -2,7 +2,7 @@
 @import url(./media-queries.scss);
 * {
   margin: 0;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
 }
 
 #bodyIndex {
@@ -10,55 +10,82 @@
 }
 
 .divPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 50vh;
   width: 100%;
 }
+
 .divPrincipal .divPrincipal_cubo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
   background-size: cover;
   background-image: url(../img/codigo.jpg);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
 .divPrincipal .divPrincipal_cubo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
   background-image: url(../img/contacto.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .divPrincipal2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 50vh;
   width: 100%;
 }
+
 .divPrincipal2 .divPrincipal2_cubo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
   background-image: url(../img/sobre-mi.jpg);
   background-position: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
 .divPrincipal2 .divPrincipal2_cubo4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
   background-image: url(../img/skills.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .h1Cubo {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: yellow;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: font-size 1s;
   transition: font-size 1s;
   text-decoration: none;
   font-size: 2.5em;
@@ -73,34 +100,33 @@
   .h1Cubo {
     font-size: 1.5em;
   }
-
   .h1Cubo:hover {
     font-size: 1.6em;
   }
-
   .divPrincipal_cubo1 {
     background-size: cover;
     background-position: top;
   }
-
   .divPrincipal_cubo2 {
     background-image: url(../img/contacto-movil.jpg) !important;
   }
 }
+
 @media (min-width: 577px) and (max-width: 768px) {
   .divPrincipal_cubo2 {
     background-image: url(../img/contacto-movil.jpg) !important;
   }
 }
+
 @media (min-width: 769px) and (max-width: 1200px) {
   .h1Cubo {
     font-size: 2.5em !important;
   }
-
   .h1Cubo:hover {
     font-size: 3.6em !important;
   }
 }
+
 .animate__animated.animate__backInDown {
   --animate-duration: 0.5s;
 }
@@ -117,7 +143,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Sniglet", cursive;
+  font-family: 'Sniglet', cursive;
   background-image: url(../img/fondo-pixel.jpg);
   background-size: contain;
   background-repeat: repeat-x;
@@ -126,7 +152,7 @@
 .contactame {
   font-weight: normal;
   font-size: 4em;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -148,6 +174,7 @@
     margin-left: 100%;
   }
 }
+
 /* Animation */
 @keyframes myfirst {
   0% {
@@ -160,6 +187,7 @@
     margin-left: 100%;
   }
 }
+
 .pixel {
   background-image: url("http://pa1.narvii.com/6686/b3ab6beb88800f637afbe31b88d4f6df6ea8a65d_00.gif");
   width: 100px;
@@ -207,7 +235,7 @@ input, textarea {
   border-radius: 10px;
   outline: none;
   padding: 10px;
-  font-family: "Sniglet", cursive;
+  font-family: 'Sniglet', cursive;
   font-size: 1em;
   color: #676767;
   transition: border 0.5s;
@@ -215,6 +243,7 @@ input, textarea {
   -moz-transition: border 0.5s;
   -o-transition: border 0.5s;
   border: solid 3px #98d4f3;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -228,7 +257,7 @@ textarea {
   overflow: auto;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #F90;
   color: black;
   height: 50px;
@@ -236,11 +265,12 @@ input[type=submit] {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.29em;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
+  -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #e58f0e;
 }
 
@@ -274,4 +304,5 @@ label {
 .formgroup-error {
   background-image: url("http://www.geertjanhendriks.nl/codepen/form/octo-error.png");
   color: red;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
