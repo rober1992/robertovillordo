@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <title>Document</title>
-</head>
-<body>
-
-<header>
-	<h1>Contactame</h1>
+<?php include '../template/navbar.php';?>
+<header class="header-footer">
+	<h1 class="contactame">Contactame</h1>
 </header>
 
 <div id="form">
 
-<div class="fish" id="fish"></div>
-<div class="fish" id="fish2"></div>
+<div class="pixel" id="pixel"></div>
+<div class="pixel" id="pixel2"></div>
 
 <form id="waterform" method="post">
 
@@ -37,7 +27,8 @@
 
 	<input type="submit" value="Enviar" />
 </form>
-</div>
-    
-</body>
-</html>
+
+<?php include '../template/footer.php';?>
+
+
+

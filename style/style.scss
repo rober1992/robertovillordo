@@ -6,7 +6,7 @@
 
 }
 
-body{
+#bodyIndex{
     background-color: crimson;
 }
 
@@ -108,27 +108,33 @@ body{
     --animate-duration: 0.5s;
   }
 
+  .navbar{
+    padding: 0;
+  }
+
   //Formulario de Contacto
 
-  @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
-
-
-body, html{
+#bodyContact{
 	height: 100%;
 	padding: 0;
 	margin: 0;
 	font-family: 'Sniglet', cursive;
+    background-image: url(../img/fondo-pixel.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
 }
-h1{
+
+.contactame{
 	font-weight: normal;
 	font-size: 4em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Titan One', cursive;
 	margin: 0 auto;
-	margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 	width: 500px;
-	color: #F90;
+	color: yellow;
 	text-align: center;
-
+    text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black, 0px -2px 0 black;
 }
 
 /* Animation webkit */
@@ -147,10 +153,10 @@ h1{
 	100% {margin-left: 100%;}
 }
 
-.fish{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
-	width: 235px;
-	height: 104px;
+.pixel{
+	background-image: url('http://pa1.narvii.com/6686/b3ab6beb88800f637afbe31b88d4f6df6ea8a65d_00.gif');
+	width: 100px;
+	height: 150px;
 	margin-left: -235px;
 	position: absolute;	
 	animation: myfirst 20s;
@@ -161,33 +167,26 @@ h1{
 	-webkit-animation-timing-function: linear;
 }
 
-#fish{
-	top: 120px;
+#pixel{
+	top: 260px;
 }
 
-#fish2{
+#pixel2{
 	top: 260px;
 	animation-delay: 10s;
 	-webkit-animation-delay: 10s;
 }
 
 
-header{
-	height: 160px;
-	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
-}
-
 #form{
 	height: 100%;	
-	background-color: #98d4f3;
 	overflow: hidden;
 	position: relative;
 	
 }
 form{
 	margin: 0 auto;
-	width: 500px;
-	padding-top: 40px;
+	width: 400px;
 	color: white;
 	position: relative;
 	
@@ -197,9 +196,9 @@ label, input, textarea{
 	display: block;	
 }
 input, textarea{
-	width: 500px;	
+	width: 400px;	
 	border: none;
-	border-radius: 20px;
+	border-radius: 10px;
 	outline: none;
 	padding: 10px;
 	font-family: 'Sniglet', cursive;
@@ -226,12 +225,13 @@ textarea{
 }
 input[type="submit"]{
 	background-color: #F90;
-	color: white;
+	color: black;
 	height: 50px;
 	cursor: pointer;
-	margin-top: 30px;
+	margin-top: 10px;
+    margin-bottom: 10px;
 	font-size: 1.29em;
-	font-family: 'Sniglet', cursive;
+	font-family: 'Titan One', cursive;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
@@ -243,8 +243,9 @@ input[type="submit"]:hover{
 }
 label{
 	font-size: 1.5em;
-	margin-top: 20px;
+	margin-top: 5px;
 	padding-left: 20px;
+    color: black;
 }
 .formgroup, .formgroup-active, .formgroup-error{
 	background-repeat: no-repeat;
@@ -268,5 +269,3 @@ label{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
 	color: red;
 }
-
-
