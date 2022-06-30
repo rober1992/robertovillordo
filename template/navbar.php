@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <title>Document</title>
 </head>
-<body id="bodyContact">
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.php">Roberto Villordo</a>
@@ -19,7 +19,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="./mis-trabajos.php">Mis trabajos</a>
         <a class="nav-link" href="./sobre-mi.php">Sobre mi</a>
-        <a class="nav-link" href="./mis-skills">Mis Skills</a>
+        <a class="nav-link" href="./mis-skills.php">Mis Skills</a>
         <a class="nav-link" href="./contactame.php" tabindex="-1" aria-disabled="true">Contactame</a>
       </div>
     </div>

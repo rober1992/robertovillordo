@@ -2,7 +2,7 @@
 <header class="header-footer">
 	<h1 class="contactame">Contactame</h1>
 </header>
-
+<div id="bodyContact">
 <div id="form">
 
 <div class="pixel" id="pixel"></div>
@@ -27,6 +27,8 @@
 
 	<input type="submit" value="Enviar" />
 </form>
+
+</div>
 
 <?php include '../template/footer.php';?>
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Roberto Villordo</title>
 </head>
-<body id="bodyIndex">
+<body>
 
         <div class="divPrincipal animate__animated animate__backInDown">
                 <div class="divPrincipal_cubo1">
@@ -20,7 +20,7 @@
         </div>
         <div class="divPrincipal2  animate__animated animate__backInUp">
                 <div class="divPrincipal2_cubo4">
-                    <a href="#" class="h1Cubo">Mis Skills</a>
+                    <a href="./pages/mis-skills.php" class="h1Cubo">Mis Skills</a>
                 </div>
                 <div class="divPrincipal2_cubo3">
                     <a href="#" class="h1Cubo">Sobre mi</a>

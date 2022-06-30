@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url(./media-queries.scss);
 * {
@@ -304,5 +305,35 @@ label {
 .formgroup-error {
   background-image: url("http://www.geertjanhendriks.nl/codepen/form/octo-error.png");
   color: red;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills .DiseñoWeb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33.33%;
+}
+
+.skills .DiseñoWeb .DiseñoWeb_html, .skills .DiseñoWeb .DiseñoWeb_css {
+  display: -webkit-box;
+}
+
+.skills .DiseñoWeb img {
+  width: 50px;
+}
+
+.skills .DiseñoWeb P {
+  font-size: 2em;
+  width: 20%;
 }
 /*# sourceMappingURL=style.css.map */
